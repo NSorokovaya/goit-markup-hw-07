@@ -18,40 +18,40 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <div class="container header-container">
         <nav class="site-nav">
-          <a href="./index.html" class="logo"
-            ><span class="accent">Web</span>Studio</a
+          <a href="./index.html" class="site-nav__logo"
+            ><span class="site-nav__accent">Web</span>Studio</a
           >
 
-          <ul class="site-nav_list">
-            <li class="site-nav_item">
-              <a class="site-nav_link" href="./index.html">Студія</a>
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./index.html">Студія</a>
             </li>
-            <li class="site-nav_item">
-              <a class="site-nav_link current" href="./portfolio.html"
+            <li class="site-nav__item">
+              <a class="site-nav__link current" href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
-            <li class="site-nav_item">
-              <a class="site-nav_link" href="">Контакти</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
-        <div class="auth-nav_contact">
-          <ul class="auth-nav_list">
-            <li class="auth-nav_item">
-              <a class="auth-nav_link" href="mailto:info@devstudio.com">
-                <svg class="auth-nav_icon" width="24" height="18">
+        <div class="contact-nav">
+          <ul class="contact-nav__list">
+            <li class="contact-nav__item">
+              <a class="contact-nav__link" href="mailto:info@devstudio.com">
+                <svg class="contact-nav__icon" width="24" height="18">
                   <use href="./images/symbol-defs.svg#icon-mail"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
-            <li class="auth-nav_item">
-              <a class="auth-nav_link" href="tel:+380961111111">
-                <svg class="auth-nav_icon" width="15" height="24">
+            <li class="contact-nav__item">
+              <a class="contact-nav__link" href="tel:+380961111111">
+                <svg class="contact-nav__icon" width="15" height="24">
                   <use href="./images/symbol-defs.svg#icon-phone"></use></svg
                 >+38 096 111 11 11</a
               >
@@ -66,28 +66,32 @@
         <h1 class="visually-hidden">Портфоліо</h1>
         <!--Кнопки-->
         <div class="container">
-          <ul class="options">
-            <li class="options_item">
-              <button type="button" class="options_button">Усі</button>
+          <ul class="option-list">
+            <li class="option-list__item">
+              <button type="button" class="option-list__button">Усі</button>
             </li>
-            <li class="options_item">
-              <button type="button" class="options_button">Веб-сайти</button>
+            <li class="option-list__item">
+              <button type="button" class="option-list__button">
+                Веб-сайти
+              </button>
             </li>
-            <li class="options_item">
-              <button type="button" class="options_button">Додатки</button>
+            <li class="option-list__item">
+              <button type="button" class="option-list__button">Додатки</button>
             </li>
-            <li class="options_item">
-              <button type="button" class="options_button">Дизайн</button>
+            <li class="option-list__item">
+              <button type="button" class="option-list__button">Дизайн</button>
             </li>
-            <li class="options_item">
-              <button type="button" class="options_button">Маркетинг</button>
+            <li class="option-list__item">
+              <button type="button" class="option-list__button">
+                Маркетинг
+              </button>
             </li>
           </ul>
 
           <!--головне меню-->
           <ul class="card-list">
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/potf-1.jpg"
@@ -101,15 +105,14 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-
-                <div class="card_intro">
-                  <h2 class="card-list_title">Технокряк</h2>
-                  <p class="card-list_text">Веб-сайт</p>
+                <div class="card-intro">
+                  <h2 class="card-intro__title">Технокряк</h2>
+                  <p class="card-intro__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/portf-2.jpg"
@@ -123,16 +126,16 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 class="card-list_title">
+                <div class="card-intro">
+                  <h2 class="card-intro__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="card-list_text">Дизайн</p>
+                  <p class="card-intro__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/portf-3.jpg"
@@ -146,14 +149,14 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 class="card-list_title">Ресторан Seafood</h2>
-                  <p class="card-list_text">Додаток</p>
+                <div class="card-intro">
+                  <h2 class="card-intro__title">Ресторан Seafood</h2>
+                  <p class="card-intro___text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/portf-4.jpg"
@@ -167,14 +170,14 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 class="card-list_title">Проєкт Prime</h2>
-                  <p class="card-list_text">Маркетинг</p>
+                <div class="card-intro">
+                  <h2 class="card-intro__title">Проєкт Prime</h2>
+                  <p class="card-intro__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/portf-5.jpg"
@@ -188,14 +191,14 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 class="card-list_title">Проєкт Boxes</h2>
-                  <p class="card-list_text">Додаток</p>
+                <div class="card-intro">
+                  <h2 class="card-intro__title">Проєкт Boxes</h2>
+                  <p class="card-intro__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/portf-6.jpg"
@@ -209,16 +212,16 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 lang="en" class="card-list_title">
+                <div class="card-intro">
+                  <h2 lang="en" class="card-intro__title">
                     Inspiration has no Borders
                   </h2>
-                  <p class="card-list_text">Веб-сайт</p>
+                  <p class="card-intro__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/potf-7.jpg"
@@ -232,14 +235,14 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 class="card-list_title">Видання Limited Edition</h2>
-                  <p class="card-list_text">Дизайн</p>
+                <div class="card-intro">
+                  <h2 class="card-intro__title">Видання Limited Edition</h2>
+                  <p class="card-intro__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/portf-8.jpg"
@@ -253,14 +256,14 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 class="card-list_title">Проєкт LAB</h2>
-                  <p class="card-list_text">Маркетинг</p>
+                <div class="card-intro">
+                  <h2 class="card-intro__title">Проєкт LAB</h2>
+                  <p class="card-intro__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="card-list_item">
-              <a href="" class="card-list_link">
+            <li class="card-list__item">
+              <a href="" class="card-list__link">
                 <div class="thumb">
                   <img
                     src="./images/portf-9.jpg"
@@ -274,9 +277,9 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </div>
                 </div>
-                <div class="card_intro">
-                  <h2 lang="en" class="card-list_title">Growing Business</h2>
-                  <p class="card-list_text">Додаток</p>
+                <div class="card-intro">
+                  <h2 lang="en" class="card-intro__title">Growing Business</h2>
+                  <p class="card-intro__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -285,50 +288,52 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="footer">
       <div class="container">
-        <div class="page__footer-address">
-          <div class="footer-wrapper">
-            <a href="./index.html" class="page-footer_logo"
+        <div class="footer-wrapper">
+          <div class="address">
+            <a href="./index.html" class="address__logo"
               ><span class="accent">Web</span>Studio</a
             >
-            <address class="direction">
+            <address class="address__direction">
               м. Київ, пр-т Лесі Українки, 26
-              <a href="mailto:info@devstudio.com" class="direction-link"
+              <a
+                href="mailto:info@devstudio.com"
+                class="address__direction--link"
                 >info@devstudio.com</a
               >
-              <a href="tel:+380961111111" class="direction-link"
+              <a href="tel:+380961111111" class="address__direction--link"
                 >+38 096 111 11 11</a
               >
             </address>
           </div>
           <div class="footer-social">
             <h3 class="footer-title">приєднуйтесь</h3>
-            <ul class="footer__social-list">
-              <li class="footer__social-item">
-                <a href="" class="footer__social-link">
-                  <svg class="footer__social-icon" width="20" height="20">
+            <ul class="footer-social__list">
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg class="footer-social__icon" width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer__social-item">
-                <a href="" class="footer__social-link">
-                  <svg class="footer__social-icon" width="20" height="20">
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg class="footer-social__icon" width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer__social-item">
-                <a href="" class="footer__social-link">
-                  <svg class="footer__social-icon" width="20" height="20">
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg class="footer-social__icon" width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer__social-item">
-                <a href="" class="footer__social-link">
-                  <svg class="footer__social-icon" width="20" height="20">
+              <li class="footer-social__item">
+                <a href="" class="footer-social__link">
+                  <svg class="footer-social__icon" width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
                   </svg>
                 </a>
@@ -336,18 +341,18 @@
             </ul>
           </div>
           <form class="form">
-            <label for="user-email" class="form-label"
+            <label for="user-email" class="footer-form__label"
               >Підпишіться на розсилку
             </label>
             <div class="footer-form">
               <input
-                class="footer-form_input"
+                class="footer-form__input"
                 type="text"
                 name="E-mail"
                 placeholder="E-mail"
                 id="user-email"
               />
-              <button type="submit" class="footer-form_button">
+              <button type="submit" class="footer-form__button">
                 Підписатися
                 <svg class="submit-icon" width="24" height="24">
                   <use href="./images/symbol-defs.svg#icon-icon-send"
