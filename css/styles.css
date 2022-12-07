@@ -479,7 +479,7 @@ img {
 }
 /*форма футера*/
 .form{
-margin-left: 93px;
+margin-left: auto;
 }
 .footer-form{
   margin-top: 20px;
@@ -650,7 +650,7 @@ cursor: pointer;
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-  
+  outline: transparent;
 }
 .modal-form__textarea::placeholder{
   font-weight: 400;
@@ -658,6 +658,9 @@ cursor: pointer;
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+}
+.modal-form__textarea:focus{
+  border-color: var(--accent);
 }
 .checkbox-form{
   display: flex;
