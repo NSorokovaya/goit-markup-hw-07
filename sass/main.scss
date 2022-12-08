@@ -1,0 +1,55 @@
+@import "./base/reset";
+@import "./base/normalize";
+
+@import "./utils/vars";
+@import "./utils/placeholder";
+@import "./utils/mixin";
+
+@import "./base/common";
+@import "./components/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/tasks";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./components/footer";
+@import "./layout/modal";
+@import "./layout/portfolio-page";
+
+
+
+/*кнопки соц сетей ?????*/
+.social-list {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+}
+
+.social-list__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.social-list__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--white);
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      fill: var(--icon-main-color);
+      transition: var(--animatiom-btn);
+}
+
+.social-list__link:hover,
+.social-list__link:focus {
+      background-color: var(--accent);
+      fill: var(--white);
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+/*цвет основного текста #757575*/
+/*вторичный цвет текста #212121*/
+/*серый фоновый цвет  #2F303A*/
+/*вторичный цвет фона #F5F4FA/*
+/*белый #FFFFFF*/
+/*акцент #2196F3*/
+/*черный logo ##000000*/
+/* цвет иконок #afb1b8*/
+/*цвет иконок в футере rgba(255, 255, 255, 0.1);*/
+
+
+body {
+      background-color: var(--white);
+      color: var(--primary-text-color);
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 0.03em;
+}
+
+.container {
+      width: 1200px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+}
+
+/*section*/
+.section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+      &__title{
+            margin-bottom: 50px;
+            color: var(--additional-text-color);
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+      }
+}
+
+
+.visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+}
+.accent {
+      color: var(--accent);
+}

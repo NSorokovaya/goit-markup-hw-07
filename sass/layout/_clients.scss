@@ -1,0 +1,30 @@
+/*our clients*/
+
+.clients-list {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      &__item {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+            }
+      &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+            height: 92px;
+            color: var(--icon-main-color);
+            border: 1px solid #AFB1B8;
+            border-radius: 4px;
+            transition: var(--animatiom-btn);
+            fill: currentColor;
+            &:hover,
+            &:focus {
+                        fill: var(--accent);
+                        border-color: var(--accent);
+                  }
+      }
+      
+}
