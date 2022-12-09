@@ -295,17 +295,17 @@ body {
 }
 .contact-nav__list {
   display: flex;
-  margin-left: auto;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin-left: auto;
 }
 .contact-nav__item:not(:last-child) {
   margin-right: 30px;
 }
 .contact-nav__link {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -370,12 +370,12 @@ body {
   width: 270px;
 }
 .feature-list__img {
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
   background-color: var(--second-background-color);
   border-radius: 4px;
 }
@@ -685,10 +685,10 @@ body {
 }
 
 .modal-close {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
   width: 30px;
   height: 30px;
   right: 8px;
@@ -812,9 +812,9 @@ body {
 }
 .checkbox-form__label {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
   gap: 8.38px;
 }
 .checkbox-form__input {

@@ -5,14 +5,10 @@
       justify-content: center;
       gap: 30px;
       &__item {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
+                  @include d-flex-center;
             }
       &__link {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include d-flex-center;
             width: 170px;
             height: 92px;
             color: var(--icon-main-color);

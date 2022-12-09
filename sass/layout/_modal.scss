@@ -31,10 +31,8 @@
 }
 
 .modal-close {
+      @include d-flex-center;
       position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       width: 30px;
       height: 30px;
       right: 8px;
@@ -145,10 +143,8 @@
       color: var(--primary-text-color);
       margin-bottom: 30px;
       &__label {
-                  display: flex;
+                  @include d-flex-center;
                   flex-direction: row;
-                  align-items: center;
-                  justify-content: center;
                   gap: 8.38px;
       
             }

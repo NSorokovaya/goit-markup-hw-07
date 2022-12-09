@@ -65,19 +65,14 @@
       display: flex;
       margin-left: auto;
       &__list {
-                  display: flex;
-                  margin-left: auto;
-                  align-items: center;
-                  justify-content: center;
-      
+            @include d-flex-center;
+            margin-left: auto;
             }
       &__item:not(:last-child) {
             margin-right: 30px;
       }
       &__link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include d-flex-center;
             color: var(--primary-text-color);
             font-weight: 500;
             font-size: 14px;
